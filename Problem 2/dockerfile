@@ -1,0 +1,4 @@
+FROM jupyter/scipy-notebook
+COPY requirements.txt ./requirements.txt
+COPY Tanbin_Islam_Rohan_DS_Assessment.ipynb ./Tanbin_Islam_Rohan_DS_Assessment.ipynb
+RUN pip install -r requirements.txt
